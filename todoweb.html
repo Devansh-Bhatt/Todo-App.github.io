@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="todoweb.css">
+    </head>
+    <body>
+        <div class="todoapp-background">
+            <div class="todoapp-text">Todo-App</div>
+            <div class="about">Record your todos Here!</div>
+        </div>
+        <div class="add-todo">
+            <div class="enter-todo">
+                <input id="todo-title" type="text" placeholder="Write your tasks here..." class="enter-todo-bar" />
+            </div>
+            <div class="enter-date">
+                <input id="date-picker" type ="date" class="enter-date-bar" />
+            </div>
+            <div class="add-button">
+                <button onclick="addtodo()" class="add-todo-button">Add Task</button>
+            </div>
+        </div>
+        <div id="todolist" class="todolist"></div>
+        <script src="todowebjs.js"></script>
+        
+        
+    </body>
+</html>
